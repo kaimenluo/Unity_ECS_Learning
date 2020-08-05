@@ -1,0 +1,10 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+using Unity.Entities;
+
+public struct Moving : IComponentData
+{
+    public float MoveSpeed; 
+}
